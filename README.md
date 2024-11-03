@@ -1,33 +1,17 @@
-# Criador de Projetos React com Tailwind CSS 
+# Setup - ReactJS + Tailwind CSS
+Ferramenta para criação e configuração de projetos **ReactJS** com **Tailwind CSS**, com interface gráfica. Permite iniciar novos projetos rapidamente com as dependências necessárias e remove arquivos desnecessários, garantindo um projeto limpo e organizado desde o início.
 
-<p align="center">
-  <img alt="SetupReact" src="./assets/SetupReact.png" width="100%">
-</p>
+![Screenshot da UI do software](source/assets/img/screenshot.png)
 
-Este projeto é uma ferramenta prática desenvolvida em Python que facilita a criação e configuração de projetos React com Tailwind CSS. Com uma interface gráfica intuitiva, você pode rapidamente iniciar um novo projeto com todas as configurações e dependências necessárias para começar a desenvolver com React e Tailwind CSS. 
+## Funcionamento
+*  **Seleção de Projeto:** O usuário escolhe o local para criar o novo projeto.
+*  **Criação do Projeto:** A ferramenta utiliza comandos do terminal para gerar a estrutura básica do projeto React.
+*  **Configuração do Tailwind CSS:** Configura automaticamente o Tailwind CSS, incluindo a instalação das dependências necessárias.
+*  **Remoção de Arquivos Desnecessários:** Apaga pastas e arquivos que não são essenciais, mantendo o projeto organizado.
+*  **Acesso ao VSCode:** Um botão permite abrir o projeto diretamente no Visual Studio Code, facilitando o início do desenvolvimento.
 
-## 🎯 Objetivo 
-O principal objetivo deste projeto é transformar a configuração inicial de projetos React com Tailwind CSS em um processo simples e ágil. Criar um projeto React e configurar Tailwind CSS manualmente pode ser demorado e tedioso, especialmente para desenvolvedores que desejam começar rapidamente. A ferramenta automatiza essas etapas, proporcionando uma maneira eficiente e livre de erros para criar e configurar novos projetos. A automação não só economiza tempo, mas também reduz a possibilidade de erros humanos durante a configuração, permitindo que você se concentre no desenvolvimento do seu aplicativo.
-
-## 📋 Funcionalidades
-
-- **Criação de Projeto React**: 
-  - Utiliza Vite para criar um novo projeto React com a estrutura padrão.
-
-- **Instalação de Tailwind CSS**: 
-  - Configura Tailwind CSS junto com PostCSS e Autoprefixer.
-
-- **Configuração Automática**: 
-  - Inicializa e configura os arquivos `tailwind.config.js` e `postcss.config.js`.
-
-- **Arquivos de Exemplo**: 
-  - Substitui arquivos padrão por configurações de exemplo e remove arquivos desnecessários.
-
-- **Interface Gráfica Intuitiva**: 
-  - Uma interface gráfica desenvolvida com CustomTkinter para facilitar a criação do projeto.
-
-## 🤔 Como utilizar? 
-Para utilizar o projeto, execute o arquivo "Criador de Projetos React com Tailwind" na pasta `dist`. 
+## Como utilizar?
+Para utilizar o projeto, execute o arquivo "Criador de Projetos React com Tailwind" na pasta `dist`.
 
 ## Observação
-O projeto utiliza `yarn` para criação do projeto, caso não utlize yarn, rode o comando `npm install -g yarn` antes de executar a aplicação.
+O projeto utiliza o gerenciador de pacotes `yarn` para criação do projeto, caso não tenha instalado na sua máquina, ele será instalado após iniciar o software.
