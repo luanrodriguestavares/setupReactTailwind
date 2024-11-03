@@ -11,7 +11,7 @@ Ferramenta para criação e configuração de projetos **ReactJS** com **Tailwin
 *  **Acesso ao VSCode:** Um botão permite abrir o projeto diretamente no Visual Studio Code, facilitando o início do desenvolvimento.
 
 ## Como utilizar?
-Para utilizar o projeto, execute o arquivo "Criador de Projetos React com Tailwind" na pasta `dist`.
+Para utilizar o projeto, execute o arquivo "Setup - ReactJS + Tailwind" na pasta `dist`.
 
 ## Observação
 O projeto utiliza o gerenciador de pacotes `yarn` para criação do projeto, caso não tenha instalado na sua máquina, ele será instalado após iniciar o software.
